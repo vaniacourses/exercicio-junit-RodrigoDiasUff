@@ -1,37 +1,38 @@
 package calculadora;
+import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
+
 
 public class Calculadora {
 	
-
-	
 	/**
-	 * Este método soma dois inteiros e retorna o resultado
+	 * Este mï¿½todo soma dois inteiros e retorna o resultado
 	 * 
 	 * @param a
 	 * 	 Primeiro valor a ser adicionado
 	 * @param b
 	 * 	Segundo valor a ser adicionado
-	 * @return O valor retornado é a soma dos dois números
+	 * @return O valor retornado ï¿½ a soma dos dois nï¿½meros
 	 */
 	public int soma (int a, int b) {
 		return a + b;
 	}
 	
 	/**
-	 * Este método subtrai dois inteiros e retorna o resultado
+	 * Este mï¿½todo subtrai dois inteiros e retorna o resultado
 	 * 
 	 * @param a
-	 * 	 Primeiro valor a ser subtraído
+	 * 	 Primeiro valor a ser subtraï¿½do
 	 * @param b
-	 * 	Segundo valor a ser subtraído
-	 * @return O valor retornado é a subtração dos dois números
+	 * 	Segundo valor a ser subtraï¿½do
+	 * @return O valor retornado ï¿½ a subtraï¿½ï¿½o dos dois nï¿½meros
 	 */	
 	public int subtracao(int a, int b) {
 		return a - b;
 	}
 	
 	/**
-	 * Este método multiplica dois inteiros e retorna o resultado
+	 * Este mï¿½todo multiplica dois inteiros e retorna o resultado
 	 * 
 	 * @param a
 	 * @param b
@@ -42,7 +43,7 @@ public class Calculadora {
 	}
 	
 	/**
-	 * Este método divide dois inteiros e retorna o resultado
+	 * Este mï¿½todo divide dois inteiros e retorna o resultado
 	 * 
 	 * @param a
 	 * @param b
@@ -53,10 +54,10 @@ public class Calculadora {
 	}	
 
 	/**
-	 * Este método retorna o somatório 0 até n
+	 * Este mï¿½todo retorna o somatï¿½rio 0 atï¿½ n
 	 * 
 	 * @param n	  		
-	 * @return O retorno será o somatório de 0 até n
+	 * @return O retorno serï¿½ o somatï¿½rio de 0 atï¿½ n
 	 */
 	public int somatoria(int n) {
 		int somatorio = 0;
@@ -69,7 +70,7 @@ public class Calculadora {
 	
 	
 	/**
-	 * Este retorna se um inteiro n é positivo
+	 * Este retorna se um inteiro n ï¿½ positivo
 	 * 
 	 * @param n	 
 	 * @return
@@ -79,7 +80,7 @@ public class Calculadora {
 	}
 	
 	/**
-	 * Esse método compara dois número a e b
+	 * Esse mï¿½todo compara dois nï¿½mero a e b
 	 * @param a
 	 * @param b
 	 * @return 0 se a==b, 1 se a>b, -1 se a < b
